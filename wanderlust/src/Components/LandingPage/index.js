@@ -6,6 +6,12 @@ function LandingPage() {
   return (
     <div className="LandingPage-Container">
       <Navbar/>
+      <CTA-Banner/>
+      <How-it-Works/>
+      <Featured-Experiences/>
+      <CTA-Banner/>
+      <Search-Activity/>
+      <Search-Location/>
     </div>
   );
 }
