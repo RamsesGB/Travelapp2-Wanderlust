@@ -1,12 +1,17 @@
-import React from 'react';
-import '../../App.css';
-import NavItem from "./navItem"
+import React from "react";
+import "../../App.css";
+import NavItem from "./navItem";
 
 function Navbar() {
   return (
-    <nav className="Nav-Container">
-      <NavItem/>
-    </nav>
+    <header className="Header-Container">
+      <div>
+        <a href="HomePage">Wanderlust</a>
+      </div>
+      <nav>
+        <NavItem />
+      </nav>
+    </header>
   );
 }
 

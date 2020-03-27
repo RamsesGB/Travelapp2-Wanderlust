@@ -3,7 +3,7 @@ import "./LandingPage.css";
 
 function CTABanner() {
   return (
-    <div id="CTA" className="CTA-Container">
+    <section id="CTA" className="CTA-Container Hero-Img">
       <span className="container">
         <h2 className="banner-txt">Find your next adventure.</h2>
         <br></br>
@@ -11,7 +11,7 @@ function CTABanner() {
         <br></br>
         <button>Join Now!</button>
       </span>
-    </div>
+    </section>
   );
 }
 
