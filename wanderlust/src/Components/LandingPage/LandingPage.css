@@ -1,3 +1,62 @@
 .CTA-Container {
-  background-color: blueviolet;
+  background-image: url(../../Images/holly-mandarich-326680-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .CTA-Container {
+    height: 40vh;
+  }
+}
+.CTA-Container span {
+  padding-top: 11%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.CTA-Container span button {
+  width: 120px;
+  height: 46px;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+  background-color: #2a7be3;
+  border: 1px solid #2a7be3;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Rubik", sans-serif;
+}
+.CTA-Container span button:hover {
+  background-color: white;
+  color: #2a7be3;
+  border: none;
+}
+.CTA-Container .banner-txt {
+  font-size: 6.2rem;
+  font-weight: 400;
+  color: white;
+}
+@media (max-width: 800px) {
+  .CTA-Container .banner-txt {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+}
+.CTA-Container .banner-sub-text {
+  color: whitesmoke;
+}
+@media (max-width: 800px) {
+  .CTA-Container .banner-sub-text {
+    font-size: 2.5rem;
+  }
 }
