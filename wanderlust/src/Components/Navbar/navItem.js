@@ -5,9 +5,6 @@ function NavItem() {
   return (
     <ul className="LandingPage-Container">
       <li>
-        <a href="HomePage">Wanderlust</a>
-      </li>
-      <li>
         <a href="CTA">Become a Guide</a>
       </li>
       <li>
