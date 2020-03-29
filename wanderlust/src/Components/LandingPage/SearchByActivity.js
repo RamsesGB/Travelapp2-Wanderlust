@@ -2,7 +2,6 @@ import React from "react";
 import "./LandingPage.css";
 import ActIcon1 from "../../Images/teddy-kelley-105544-unsplash.jpg";
 
-
 function SearchByActivity() {
   return (
     <section className="Activity-container">

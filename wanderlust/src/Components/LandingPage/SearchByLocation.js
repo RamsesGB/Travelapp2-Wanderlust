@@ -1,5 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
+import ActIcon1 from "../../Images/teddy-kelley-105544-unsplash.jpg";
+
 
 function SearchByLocation() {
   return (
@@ -10,19 +12,19 @@ function SearchByLocation() {
 
       <div className="triPanelBox container">
         <div className="panel container">
-          <img alt="activity" src="design-files/ricardo-gomez-angel-987203-unsplash.jpg" />
+          <img alt="activity" src={ActIcon1} />
           <div>
             <p>Colombia</p>
           </div>
         </div>
         <div className="panel container">
-          <img alt="activity" src="design-files/tyler-nix-582593-unsplash.jpg" />
+          <img alt="activity" src={ActIcon1} />
           <div>
             <p>Hawaii</p>
           </div>
         </div>
         <div className="panel lastPanel container">
-          <img alt="activity" src="design-files/jezael-melgoza-1127048-unsplash.jpg" />
+          <img alt="activity" src={ActIcon1} />
           <div>
             <p>Tokyo</p>
           </div>
