@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 25px;
+  padding-top: 50px;
+}
+@media (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+header h1 {
+  padding-left: 4%;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(46, 58, 77);
+}
+
+header nav {
+  width: 50%;
+}
+@media (max-width: 1024px) {
+  header nav {
+    width: 100%;
+  }
+}
+
+header nav a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #1f252e;
+  font-weight: 500;
+}
+
+.Nav-Container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 10%;
+  padding-right: 5%;
+}

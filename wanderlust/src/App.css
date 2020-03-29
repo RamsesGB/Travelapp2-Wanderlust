@@ -2,4 +2,9 @@
   text-align: center;
   margin: auto;
   width: 85%;
+  background-color: whitesmoke;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
 }

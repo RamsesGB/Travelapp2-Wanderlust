@@ -3,7 +3,7 @@ import "../../App.css";
 
 function NavItem() {
   return (
-    <ul className="LandingPage-Container">
+    <ul className="Nav-Container">
       <li>
         <a href="CTA">Become a Guide</a>
       </li>
