@@ -1,5 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
+import ActIcon1 from "../../Images/teddy-kelley-105544-unsplash.jpg";
 
 function SearchByActivity() {
   return (
@@ -15,19 +16,19 @@ function SearchByActivity() {
 
         <div className="triPanelBox container">
           <div className="panel container">
-            <img alt="activity" src="design-files/lachlan-gowen-787977-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>London Proper</p>
             </div>
           </div>
           <div className="panel container">
-            <img alt="activity" src="design-files/jonas-hoss-1354891-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>Historic Italy</p>
             </div>
           </div>
           <div className="panel lastPanel container">
-            <img alt="activity" src="design-files/shea-rouda-471295-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>Downtown Denver</p>
             </div>
@@ -42,19 +43,19 @@ function SearchByActivity() {
 
         <div className="triPanelBox container">
           <div className="panel container">
-            <img alt="activity" src="design-files/berkay-akbulut-1276360-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>Sky Dive Lesson</p>
             </div>
           </div>
           <div className="panel container">
-            <img alt="activity" src="design-files/larisa-birta-577898-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>Nature Walk</p>
             </div>
           </div>
           <div className="panel lastPanel container">
-            <img alt="activity" src="design-files/kristina-wagner-357533-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>Angel's Landing</p>
             </div>
@@ -69,19 +70,19 @@ function SearchByActivity() {
 
         <div className="triPanelBox container">
           <div className="panel container">
-            <img alt="activity" src="design-files/marc-babin-716173-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>Dinner Party</p>
             </div>
           </div>
           <div className="panel container">
-            <img alt="activity" src="design-files/kelsey-chance-575535-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>Cooking Class</p>
             </div>
           </div>
           <div className="panel lastPanel container">
-            <img alt="activity" src="design-files/abhishek-sanwa-limbu-782224-unsplash.jpg" />
+            <img alt="activity" src={ActIcon1} />
             <div>
               <p>Handmade Dumplings</p>
             </div>
