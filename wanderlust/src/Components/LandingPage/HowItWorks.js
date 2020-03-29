@@ -6,25 +6,29 @@ import S3Icon from "../../Images/undraw_High_five_u364.svg";
 
 function HowItWorks() {
   return (
-    <div id="HowTo" className="How-Container">
+    <section id="HowTo" className="How-Container">
       <div className="title-section">
         <h2 className="Section-title">How it Works</h2>
       </div>
       <div className="card-section">
         <div className="Howto-card">
-          <p>1</p>
+          <p className="p-steps">1</p>
           <h4>Create An Account</h4>
-          <img className="step-icon" src={S1Icon} alt="profile icon"/>
-          <p>Personalize your information and build your network</p>
+          <img className="step-icon" src={S1Icon} alt="profile icon" />
+          <p>
+            Personalize your information and build your network
+          </p>
         </div>
         <div className="Howto-card">
-          <p>2</p>
+          <p className="p-steps">2</p>
           <h4>Find Your Adventure</h4>
-          <img className="step-icon" src={S2Icon} alt="search icon"/>
-          <p>Search thousands of experiences with curated recommendation</p>
+          <img className="step-icon mid-icon" src={S2Icon} alt="search icon" />
+          <p>
+            Search thousands of experiences with curated recommendations
+          </p>
         </div>
         <div className="Howto-card">
-          <p>3</p>
+          <p className="p-steps">3</p>
           <h4>Have an Experience of a Lifetime</h4>
           <img className="step-icon" src={S3Icon} alt="adventure icon" />
           <p>
@@ -33,7 +37,7 @@ function HowItWorks() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
