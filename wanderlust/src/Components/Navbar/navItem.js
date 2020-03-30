@@ -1,23 +1,25 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../../App.css";
 
 function NavItem() {
   return (
     <ul className="Nav-Container">
       <li>
-        <a href="CTA">Become a Guide</a>
+        <NavLink to="/BecomeAGuide">Become a Guide</NavLink>
       </li>
       <li>
-        <a href="SearchActivity">Search</a>
+        <NavLink to="/Search">Search</NavLink>
       </li>
       <li>
-        <a href="LoginPage">Log in</a>
+        <NavLink to="/LogIn">Log In</NavLink>
       </li>
       <li>
-        <a href="SignUp">Sign up</a>
+        <NavLink to="/SignUp">Sign Up</NavLink>
       </li>
     </ul>
   );
 }
 
 export default NavItem;
+
