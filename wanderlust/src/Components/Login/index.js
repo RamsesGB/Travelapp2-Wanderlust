@@ -1,7 +1,6 @@
 import React from "react";
-import Navbar from "../Navbar/index";
 import "../../App.css";
-// import { Route } from "react-router-dom";
+
 
 function LogIn() {
   return (
