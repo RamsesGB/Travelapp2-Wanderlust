@@ -2,6 +2,7 @@ import React from "react";
 import LandingPage from "./Components/LandingPage";
 import LogIn from "./Components/Login";
 import SignUp from "./Components/Sign-Up";
+import GuideSignUp from "./Components/GuideOnboarding";
 import { Switch, Route, NavLink, Link } from "react-router-dom";
 import "./App.css";
 import "./Components/Navbar/Nav.css";
@@ -36,6 +37,9 @@ function App() {
       {/* --------------- > NAV Component END */}
 
       <Switch>
+      <Route path="/BecomeAGuide">
+          <GuideSignUp />
+        </Route>
       <Route path="/SignUp">
           <SignUp />
         </Route>
