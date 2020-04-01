@@ -130,14 +130,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./Images/overlay.png"),
-    -moz-linear-gradient(45deg, #1e242e 15%, #1e242e 85%);
-  background-image: url("./Images/overlay.png"),
-    -webkit-linear-gradient(45deg,#1e242e 15%, #1e242e 85%);
-  background-image: url("./Images/overlay.png"), #1e242e
-    -ms-linear-gradient(45deg, #1e242e 15%, #1e242e 85%);
-  background-image: url("./Images/overlay.png"),
-    linear-gradient(45deg, #1e242e 15%, #1e242e 85%);
+  background-image: url("#"),
+    -moz-linear-gradient(180deg, rgba(245,245,245,1) 60%, rgba(30,36,46,1) 100%);
+  background-image: url("#"),
+    -webkit-linear-gradient (180deg, rgba(245,245,245,1) 60%, rgba(30,36,46,1) 100%);
+  background-image: url("#"), #1e242e
+    -ms-linear-gradient(180deg, rgba(245,245,245,1) 60%, rgba(30,36,46,1) 100%);
+  background-image: url("#"),
+    linear-gradient(180deg, rgba(245,245,245,1) 60%, rgba(30,36,46,1) 100%);
+  /* background-color: whitesmoke; */
+  /* url("./Images/overlay.png"), */
 }
 
 code {

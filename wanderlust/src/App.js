@@ -37,10 +37,10 @@ function App() {
       {/* --------------- > NAV Component END */}
 
       <Switch>
-      <Route path="/BecomeAGuide">
+        <Route path="/BecomeAGuide">
           <GuideSignUp />
         </Route>
-      <Route path="/SignUp">
+        <Route path="/SignUp">
           <SignUp />
         </Route>
         <Route path="/LogIn">

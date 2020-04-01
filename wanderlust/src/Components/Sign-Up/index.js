@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
-import signUpIcon from "../../Images/teddy-kelley-105544-unsplash.jpg";
+import "./SignUp.css";
+// import signUpIcon from "../../Images/teddy-kelley-105544-unsplash.jpg";
 
 
 function SignUp() {

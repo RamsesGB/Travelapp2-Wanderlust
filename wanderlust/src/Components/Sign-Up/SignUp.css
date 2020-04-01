@@ -1,0 +1,31 @@
+.SignUp-Container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+border-top: 1px solid gray;
+margin: 0% auto;
+margin-top: 2%;
+}
+
+.SignUp-Container div {
+width:50%;
+  }
+
+.SignUp-image-box {
+  background-image: url(../../Images/teddy-kelley-105544-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  width: 30%;
+  /* display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+.SignUp-image-box img {
+width: 100%;
+height:auto;
+}
