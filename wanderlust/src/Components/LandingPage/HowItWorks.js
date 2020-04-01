@@ -15,17 +15,13 @@ function HowItWorks() {
           <p className="p-steps">1</p>
           <h4>Create An Account</h4>
           <img className="step-icon" src={S1Icon} alt="profile icon" />
-          <p>
-            Personalize your information and build your network
-          </p>
+          <p>Personalize your information and build your network</p>
         </div>
         <div className="Howto-card">
           <p className="p-steps">2</p>
           <h4>Find Your Adventure</h4>
           <img className="step-icon mid-icon" src={S2Icon} alt="search icon" />
-          <p>
-            Search thousands of experiences with curated recommendations
-          </p>
+          <p>Search thousands of experiences with curated recommendations</p>
         </div>
         <div className="Howto-card">
           <p className="p-steps">3</p>
