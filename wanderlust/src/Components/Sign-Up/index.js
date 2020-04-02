@@ -3,25 +3,24 @@ import axios from "axios";
 import "../../App.css";
 import "./SignUp.css";
 
-
 function SignUp() {
   const [fname, setFname] = useState("");
   const [lname, setLname] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
+  // ADD CORRECT ENDPOINT ONCE SERVER IS RUNNING!
+  const onSubmit = event => {
+    event.preventDefault();
+    axios.post("/", { fname, lname, email, password });
+  };
+
   return (
     <section className="SignUp-Container">
       <aside className="SignUp-image-box">{/* Image Container */}</aside>
       <div className="Form-Container">
         <h2>Sign Up</h2>
-        <form
-        // ADD CORRECT ENDPOINT ONCE SERVER IS RUNNING!
-          onSubmit={event => {
-            event.preventDefault();
-            axios.post("/", { fname, lname, email, password });
-          }}
-        >
+        <form onSubmit={onSubmit}>
           <label htmlFor="fnameInput">First Name</label>
           <input
             id="fnameInput"
