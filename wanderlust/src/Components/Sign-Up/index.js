@@ -53,7 +53,7 @@ function SignUp() {
           <input
             id="emailInput"
             maxLength="20"
-            name="Email"
+            name="email"
             type="email"
             onChange={onInputChange}
           ></input>
