@@ -2,6 +2,7 @@ import React from "react";
 import LandingPage from "./Components/LandingPage";
 import LogIn from "./Components/Login";
 import SignUp from "./Components/Sign-Up";
+import Dashboard from "./Components/Dashboard"
 // import GuideSignUp from "./Components/GuideOnboarding";
 import { Switch, Route, NavLink, Link } from "react-router-dom";
 import "./App.css";
@@ -20,10 +21,7 @@ function App() {
 
           <ul className="Nav-Container">
             <li>
-              <NavLink to="/SignUp/Guide">Become a Guide</NavLink>
-            </li>
-            <li>
-              <NavLink to="/Search">Search</NavLink>
+              <NavLink to="/Dashboard">Dashboard</NavLink>
             </li>
             <li>
               <NavLink to="/LogIn">Log In</NavLink>
@@ -37,6 +35,9 @@ function App() {
       {/* --------------- > NAV Component END */}
 
       <Switch>
+        <Route path="/Dashboard">
+          <Dashboard />
+        </Route>
         <Route exact path="/SignUp">
           <SignUp />
         </Route>
