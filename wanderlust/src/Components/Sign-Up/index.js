@@ -15,7 +15,7 @@ function SignUp() {
   const onSubmit = event => {
     event.preventDefault();
     axios.post("/", { ...inputData });
-    console.log({...inputData})
+    console.log({ ...inputData });
   };
 
   const onInputChange = event => {
@@ -36,36 +36,40 @@ function SignUp() {
             id="fnameInput"
             maxLength="20"
             name="fname"
+            value={inputData.fname}
             type="text"
             onChange={onInputChange}
-          ></input>
+          />
 
           <label htmlFor="lnameInput">Last Name</label>
           <input
             id="lnameInput"
             maxLength="20"
             name="lname"
+            value={inputData.lname}
             type="text"
             onChange={onInputChange}
-          ></input>
+          />
 
           <label htmlFor="emailInput">Email</label>
           <input
             id="emailInput"
             maxLength="20"
             name="email"
+            value={inputData.email}
             type="email"
             onChange={onInputChange}
-          ></input>
+          />
 
           <label htmlFor="passwordInput">Password</label>
           <input
             id="passwordInput"
             minLength="6"
             name="password"
+            value={inputData.password}
             type="password"
             onChange={onInputChange}
-          ></input>
+          />
           <input className="form-btn" type="submit" />
         </form>
       </div>
