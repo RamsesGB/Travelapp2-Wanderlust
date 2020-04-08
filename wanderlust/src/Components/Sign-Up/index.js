@@ -36,6 +36,7 @@ function SignUp() {
             id="fnameInput"
             maxLength="20"
             name="fname"
+            value={inputData.fname}
             type="text"
             onChange={onInputChange}
           />
@@ -45,6 +46,7 @@ function SignUp() {
             id="lnameInput"
             maxLength="20"
             name="lname"
+            value={inputData.lname}
             type="text"
             onChange={onInputChange}
           />
@@ -54,6 +56,7 @@ function SignUp() {
             id="emailInput"
             maxLength="20"
             name="email"
+            value={inputData.email}
             type="email"
             onChange={onInputChange}
           />
@@ -63,6 +66,7 @@ function SignUp() {
             id="passwordInput"
             minLength="6"
             name="password"
+            value={inputData.password}
             type="password"
             onChange={onInputChange}
           />
