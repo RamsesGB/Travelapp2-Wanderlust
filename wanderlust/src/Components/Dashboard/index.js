@@ -1,5 +1,9 @@
 import React from "react";
 import { Switch, Route, NavLink, useRouteMatch } from "react-router-dom";
+
+import Profile from "./Profile";
+import AddExp from "./AddExperience";
+import ManageExp from "./ManageExperience";
 import "../../App.css";
 import "./Dashboard.css"
 
