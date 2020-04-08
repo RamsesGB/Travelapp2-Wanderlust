@@ -21,9 +21,6 @@ function App() {
 
           <ul className="Nav-Container">
             <li>
-              <NavLink to="/SignUp/Guide">Become a Guide</NavLink>
-            </li>
-            <li>
               <NavLink to="/Dashboard">Dashboard</NavLink>
             </li>
             <li>
