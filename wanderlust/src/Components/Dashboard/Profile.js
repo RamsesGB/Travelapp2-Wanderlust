@@ -37,6 +37,7 @@ function Profile() {
             id="bioInput"
             maxLength="140"
             name="bio"
+            value={inputData.bio}
             type="text"
             onChange={onInputChange}
           />
@@ -46,6 +47,7 @@ function Profile() {
             id="locationInput"
             maxLength="50"
             name="location"
+            value={inputData.location}
             type="text"
             onChange={onInputChange}
           />
@@ -55,6 +57,7 @@ function Profile() {
             id="fnameInput"
             maxLength="20"
             name="fname"
+            value={inputData.fname}
             type="text"
             onChange={onInputChange}
           />
@@ -64,6 +67,7 @@ function Profile() {
             id="lnameInput"
             maxLength="20"
             name="lname"
+            value={inputData.lname}
             type="text"
             onChange={onInputChange}
           />
@@ -73,6 +77,7 @@ function Profile() {
             id="emailInput"
             maxLength="20"
             name="email"
+            value={inputData.email}
             type="email"
             onChange={onInputChange}
           />
@@ -82,6 +87,7 @@ function Profile() {
             id="passwordInput"
             minLength="6"
             name="password"
+            value={inputData.password}
             type="password"
             onChange={onInputChange}
           />
