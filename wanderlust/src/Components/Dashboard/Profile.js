@@ -32,7 +32,7 @@ function Profile() {
     <section className="SignUp-Container">
       <div className="Form-Container">
         <form onSubmit={onSubmit}>
-        <label htmlFor="fnameInput">Bio</label>
+        <label htmlFor="bioInput">Bio</label>
           <input
             id="bioInput"
             maxLength="140"
@@ -41,7 +41,7 @@ function Profile() {
             onChange={onInputChange}
           ></input>
 
-        <label htmlFor="fnameInput">Location</label>
+        <label htmlFor="locationInput">Location</label>
           <input
             id="locationInput"
             maxLength="50"
