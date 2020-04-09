@@ -29,7 +29,7 @@ function Profile() {
   };
 
   return (
-    <section className="Form-Container">
+    <section className="Form-Section">
       <div className="Form-Container">
         <form onSubmit={onSubmit}>
           <label htmlFor="bioInput">Bio</label>

@@ -42,10 +42,12 @@ function Dashboard() {
             <ManageExp />
           </Route>
           <Route exact path={match.path}>
-            <h4 className="Default-View">
-              Welcome to your Dashboard<br></br> Edit your profile and manage
-              your experiences
-            </h4>
+            <section className="Default-View">
+              <h4>
+                Welcome to your Dashboard<br></br> Edit your profile and manage
+                your experiences
+              </h4>
+            </section>
           </Route>
         </Switch>
       </div>
