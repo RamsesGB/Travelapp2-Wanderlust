@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "../../App.css";
+// import "../../App.css";
 import "./Dashboard.css";
 
 function Profile() {
@@ -29,7 +29,7 @@ function Profile() {
   };
 
   return (
-    <section className="SignUp-Container">
+    <section className="Form-Container">
       <div className="Form-Container">
         <form onSubmit={onSubmit}>
           <label htmlFor="bioInput">Bio</label>

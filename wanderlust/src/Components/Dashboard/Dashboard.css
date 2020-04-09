@@ -1,0 +1,27 @@
+
+.Dash-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid rgb(223, 45, 33);
+  padding-bottom: 10%;
+
+  /* margin: 0% auto; */
+  /* margin-top: 2%; */
+}
+
+.Default-View {
+  padding-bottom: 40%;
+}
+
+.Dash-Nav {
+  border: 1px solid rgba(30, 36, 46, 1);
+
+}
+
+.Dash-Nav li a {
+  text-decoration: none;
+  color: rgb(46, 58, 77);
+  font-weight: 500;
+  font-size: 1.4rem;
+}
