@@ -1,6 +1,6 @@
-import React from "react";
-import "./LandingPage.css";
-import ActIcon1 from "../../Images/teddy-kelley-105544-unsplash.jpg";
+import React from 'react';
+import './LandingPage.css';
+import ActIcon1 from '../../Images/teddy-kelley-105544-unsplash.jpg';
 
 function FeaturedExperiences() {
   return (
@@ -46,7 +46,7 @@ function FeaturedExperiences() {
           <button className="viewBtn">View Details</button>
         </div>
         <div className="card card5 container">
-          <h4>Karoake Night</h4>
+          <h4>Karaoke Night</h4>
           <img alt="activity" className="img1" src={ActIcon1} />
           <p>A night of karoake, food, and drinks!</p>
           <button className="viewBtn">View Details</button>
