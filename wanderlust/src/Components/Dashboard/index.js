@@ -1,11 +1,10 @@
-import React from "react";
-import { Switch, Route, NavLink, useRouteMatch } from "react-router-dom";
-import Profile from "./Profile";
-import AddExp from "./AddExperience";
-import ManageExp from "./ManageExperience";
-
-import "../../App.css";
-import "./Dashboard.css";
+import React from 'react';
+import { Switch, Route, NavLink, useRouteMatch } from 'react-router-dom';
+import Profile from './Profile';
+import AddExp from './AddExperience';
+import ManageExp from './ManageExperience';
+import './Dashboard.css';
+import DashNav from './DashNav';
 
 function Dashboard() {
   let match = useRouteMatch();
@@ -14,21 +13,7 @@ function Dashboard() {
     <section className="Dash-Section">
       <div className="Dash-Container">
         {/* Dashboard Nav Links */}
-        <ul className="Dash-Nav">
-          <li>
-            <NavLink to={`${match.url}/Profile`}>Profile</NavLink>
-          </li>
-          <li>
-            <NavLink to={`${match.url}/AddExperiences`}>
-              Add Experiences
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to={`${match.url}/ManageExperiences`}>
-              Manage Experiences
-            </NavLink>
-          </li>
-        </ul>
+        <DashNav />
 
         {/* Dashboard components */}
         <Switch className="Dash-ActiveView">
